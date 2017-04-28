@@ -57,9 +57,9 @@ final class ExpectationsTest extends TestCase
 
     public function testisInstanceOf()
     {
-        $this->assertEquals($this, expect($this)->isInstanceOf(ExpectationsTest::class)->else(null));
-        $this->assertEquals(null, expect(new Exception())->isInstanceOf(ExpectationsTest::class)->else(null));
-        $this->assertEquals(null, expect(null)->isInstanceOf(ExpectationsTest::class)->else(null));
+        $this->assertEquals($this, expect($this)->isInstanceOf(self::class)->else(null));
+        $this->assertEquals(null, expect(new Exception())->isInstanceOf(self::class)->else(null));
+        $this->assertEquals(null, expect(null)->isInstanceOf(self::class)->else(null));
     }
 
     public function testisCallable()
