@@ -182,14 +182,6 @@ final class Expectations
     /**
      * @return Expectations
      */
-    public function isIterable(): self
-    {
-        return $this->is('is_iterable');
-    }
-
-    /**
-     * @return Expectations
-     */
     public function isEmpty(): self
     {
         return $this->approveIf(empty($this->value));

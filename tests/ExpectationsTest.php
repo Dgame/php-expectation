@@ -79,14 +79,7 @@ final class ExpectationsTest extends TestCase
         $this->assertEquals(__FILE__, expect(__FILE__)->isFile()->else(null));
         $this->assertEquals(null, expect('src')->isFile()->else(null));
     }
-
-    public function testisIterable()
-    {
-        $this->assertEquals([], expect([])->isIterable()->else('foo'));
-        $this->assertEquals([1, 2, 3], expect([1, 2, 3])->isIterable()->else('bar'));
-        $this->assertEquals([4, 5, 6], expect(null)->isIterable()->else([4, 5, 6]));
-    }
-
+    
     public function testisEmpty()
     {
         $this->assertEmpty(expect(null)->isEmpty()->else('abc'));
