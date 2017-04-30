@@ -5,9 +5,9 @@ namespace Dgame\Expectation;
 /**
  * @param $value
  *
- * @return Expectations
+ * @return CommonExpectations
  */
-function expect($value): Expectations
+function expect($value): CommonExpectations
 {
-    return new Expectations($value);
+    return new CommonExpectations($value);
 }

@@ -79,7 +79,7 @@ final class ExpectationsTest extends TestCase
         $this->assertEquals(__FILE__, expect(__FILE__)->isFile()->else(null));
         $this->assertEquals(null, expect('src')->isFile()->else(null));
     }
-    
+
     public function testisEmpty()
     {
         $this->assertEmpty(expect(null)->isEmpty()->else('abc'));
