@@ -17,9 +17,19 @@ class ScalarExpectations
      */
     public function __construct($value)
     {
-        if ($this->approveIf(is_scalar($value))->isApproved()) {
+        if ($this->isScalar($value)) {
             $this->value = $this->prepare($value);
         }
+    }
+
+    /**
+     * @param $value
+     *
+     * @return bool
+     */
+    private function isScalar($value): bool
+    {
+        return $this->approveIf(is_scalar($value))->isApproved();
     }
 
     /**

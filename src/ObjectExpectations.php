@@ -17,9 +17,19 @@ final class ObjectExpectations
      */
     public function __construct($value)
     {
-        if ($this->approveIf(is_object($value))->isApproved()) {
+        if ($this->isObject($value)) {
             $this->value = $value;
         }
+    }
+
+    /**
+     * @param $value
+     *
+     * @return bool
+     */
+    private function isObject($value): bool
+    {
+        return $this->approveIf(is_object($value))->isApproved();
     }
 
     /**
