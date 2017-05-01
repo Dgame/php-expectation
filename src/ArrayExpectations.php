@@ -17,9 +17,7 @@ final class ArrayExpectations
      */
     public function __construct($value)
     {
-        if ($this->isArray($value)) {
-            $this->value = $value;
-        }
+        $this->value = $this->isArray($value) ? $value : [];
     }
 
     /**
