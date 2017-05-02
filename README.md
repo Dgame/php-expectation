@@ -246,6 +246,8 @@ $this->assertEquals('foo', expect(42)->isEven()->then('foo'));
 $this->assertEquals(42, expect(42)->isOdd()->then('foo'));
 ```
 
+----
+
 You don't like global functions? Use a static method:
 ```php
 $this->assertEquals(42, Expect::that(42)->isInt()->else(null));
