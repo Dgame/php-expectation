@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 final class ExpectTest extends TestCase
 {
-    public function testThat()
+    public function testThat(): void
     {
         $this->assertEquals(42, Expect::that(42)->isInt()->else(null));
     }
