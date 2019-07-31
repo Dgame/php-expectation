@@ -1,7 +1,7 @@
 <?php
 
-use PHPUnit\Framework\TestCase;
 use function Dgame\Expectation\expect;
+use PHPUnit\Framework\TestCase;
 
 final class ExpectationsTest extends TestCase
 {
