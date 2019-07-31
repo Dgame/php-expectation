@@ -17,7 +17,7 @@ final class ArrayValueExpectations
     /**
      * ArrayValueExpectations constructor.
      *
-     * @param $value
+     * @param mixed $value
      */
     public function __construct($value)
     {
@@ -31,7 +31,7 @@ final class ArrayValueExpectations
      */
     public function isIn(array $values): self
     {
-        return $this->approveIf(in_array($this->value, $values));
+        return $this->approveIf(in_array($this->value, $values, true));
     }
 
     /**

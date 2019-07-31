@@ -13,7 +13,7 @@ class ScalarExpectations
     /**
      * ScalarExpectations constructor.
      *
-     * @param $value
+     * @param mixed $value
      */
     public function __construct($value)
     {
@@ -23,7 +23,7 @@ class ScalarExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return bool
      */
@@ -33,7 +33,7 @@ class ScalarExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return mixed
      */
@@ -59,7 +59,7 @@ class ScalarExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return ScalarExpectations
      */
@@ -69,7 +69,7 @@ class ScalarExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return ScalarExpectations
      */
@@ -79,7 +79,7 @@ class ScalarExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return ScalarExpectations
      */
@@ -89,7 +89,7 @@ class ScalarExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return ScalarExpectations
      */

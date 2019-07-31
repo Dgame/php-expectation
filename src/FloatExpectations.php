@@ -9,7 +9,7 @@ namespace Dgame\Expectation;
 final class FloatExpectations extends NumericExpectations
 {
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return float
      */

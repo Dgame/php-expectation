@@ -13,7 +13,7 @@ final class CommonExpectations
     /**
      * CommonExpectations constructor.
      *
-     * @param $value
+     * @param mixed $value
      */
     public function __construct($value)
     {
@@ -73,7 +73,7 @@ final class CommonExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return CommonExpectations
      */
@@ -83,7 +83,7 @@ final class CommonExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return CommonExpectations
      */
@@ -93,7 +93,7 @@ final class CommonExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return CommonExpectations
      */
@@ -103,7 +103,7 @@ final class CommonExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return CommonExpectations
      */
@@ -177,7 +177,7 @@ final class CommonExpectations
     }
 
     /**
-     * @param $object
+     * @param mixed $object
      *
      * @return ObjectExpectations
      */

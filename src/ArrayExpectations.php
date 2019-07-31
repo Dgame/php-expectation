@@ -13,7 +13,7 @@ final class ArrayExpectations
     /**
      * ArrayExpectations constructor.
      *
-     * @param $value
+     * @param mixed $value
      */
     public function __construct($value)
     {
@@ -21,7 +21,7 @@ final class ArrayExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return bool
      */

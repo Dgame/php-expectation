@@ -13,7 +13,7 @@ final class ObjectExpectations
     /**
      * ObjectExpectations constructor.
      *
-     * @param $value
+     * @param mixed $value
      */
     public function __construct($value)
     {
@@ -23,7 +23,7 @@ final class ObjectExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return bool
      */
@@ -33,7 +33,7 @@ final class ObjectExpectations
     }
 
     /**
-     * @param $object
+     * @param mixed $object
      *
      * @return ObjectExpectations
      */

@@ -11,7 +11,7 @@ final class StringExpectations extends ScalarExpectations
     /**
      * StringExpectations constructor.
      *
-     * @param $value
+     * @param mixed $value
      */
     public function __construct($value)
     {
@@ -21,7 +21,7 @@ final class StringExpectations extends ScalarExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return bool
      */

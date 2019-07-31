@@ -22,7 +22,7 @@ trait ConditionTrait
      *
      * @return $this
      */
-    final protected function approveIf(bool $condition)
+    final protected function approveIf(bool $condition): self
     {
         $this->approved = $this->approved && $condition;
 
@@ -38,7 +38,7 @@ trait ConditionTrait
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return mixed
      */
@@ -48,7 +48,7 @@ trait ConditionTrait
     }
 
     /**
-     * @param $default
+     * @param mixed $default
      *
      * @return mixed
      */

@@ -11,7 +11,7 @@ final class BooleanExpectations extends ScalarExpectations
     /**
      * BooleanExpectations constructor.
      *
-     * @param $value
+     * @param mixed $value
      */
     public function __construct($value)
     {
@@ -21,7 +21,7 @@ final class BooleanExpectations extends ScalarExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return bool
      */

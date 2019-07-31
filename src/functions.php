@@ -3,7 +3,7 @@
 namespace Dgame\Expectation;
 
 /**
- * @param $value
+ * @param mixed $value
  *
  * @return CommonExpectations
  */

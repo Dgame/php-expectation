@@ -9,7 +9,7 @@ namespace Dgame\Expectation;
 final class Expect
 {
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return CommonExpectations
      */

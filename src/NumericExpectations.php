@@ -11,7 +11,7 @@ class NumericExpectations extends ScalarExpectations
     /**
      * NumericExpectations constructor.
      *
-     * @param $value
+     * @param mixed $value
      */
     public function __construct($value)
     {
@@ -21,7 +21,7 @@ class NumericExpectations extends ScalarExpectations
     }
 
     /**
-     * @param $value
+     * @param mixed $value
      *
      * @return bool
      */
